@@ -3,6 +3,10 @@ import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import App from './App'
 import router from './router'
+
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
 //初始化css样式
 import './styles/common.css'
 //引入mui的css文件

@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <div id="app">
       <mt-header fixed title="黑马员高逼格端项目"></mt-header>
       <router-view/>
       <nav class="mui-bar mui-bar-tab">
@@ -23,7 +22,6 @@
           <span class="mui-tab-label">搜索</span>
         </router-link>
       </nav>
-    </div>
   </div>
 </template>
 
